@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace OknaaEXTENSIONS.Wrappers.OptionalProperties {
+namespace OkamelUtils.Wrappers.OptionalProperties {
     [Serializable]
     public struct Optional<T> {
         [SerializeField] private bool enabled;

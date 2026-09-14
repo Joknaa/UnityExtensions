@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     public static class CoordinatesExtensions {
         /// <summary>
         /// Changes the X value of a Vector3, while keeping the other values the same.

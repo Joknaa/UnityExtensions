@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     public static class TextureExtensions {
         private static Texture2D _inputImage;
         private static int _tileWidth;

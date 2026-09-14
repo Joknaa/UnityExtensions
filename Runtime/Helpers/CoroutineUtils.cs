@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     /// <summary>
     /// Encapsulates utility Coroutine methods.
     /// This class enables us to run coroutines from non-MonoBehaviour classes.
@@ -17,12 +17,12 @@ namespace OknaaEXTENSIONS {
 
         static MonoBehaviour Instance {
             get {
-                if (s_Instance == null) {
-                    var instance = new GameObject(nameof(Coroutines), typeof(CoroutineHelper));
-                    s_Instance = instance.GetComponent<CoroutineHelper>();
-                    instance.hideFlags = HideFlags.HideAndDontSave;
-                    Object.DontDestroyOnLoad(instance);
-                }
+                if (s_Instance != null) return s_Instance;
+                
+                var instance = new GameObject(nameof(Coroutines), typeof(CoroutineHelper));
+                s_Instance = instance.GetComponent<CoroutineHelper>();
+                instance.hideFlags = HideFlags.HideAndDontSave;
+                Object.DontDestroyOnLoad(instance);
 
                 return s_Instance;
             }

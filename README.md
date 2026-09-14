@@ -1,4 +1,1 @@
-# UnityExtensions
-My library of extensions and helper classes i use in every project
- 
- 
+Use this file to describe your package's features.

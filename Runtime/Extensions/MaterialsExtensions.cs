@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     public static class MaterialsExtensions {
         public static Color SetColor(this Color originalColor, float r = -1, float g = -1, float b = -1, float a = -1) {
             // if the r,g,b,a values are not set, use the original color values

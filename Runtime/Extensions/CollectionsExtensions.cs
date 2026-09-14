@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     public static class CollectionsExtensions {
         /// <summary> 
         /// Takes a random element of a list

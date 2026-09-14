@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace OknaaEXTENSIONS.Wrappers.Coroutines {
+namespace OkamelUtils.Wrappers.Coroutines {
     public class CoroutineHandle : IEnumerator {
         public bool IsDone { get; private set; }
 

@@ -1,0 +1,10 @@
+{
+    "name": "Okamelstudio.Okamelutils.Editor",
+    "references": [
+      "Okamelstudio.Okamelutils"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

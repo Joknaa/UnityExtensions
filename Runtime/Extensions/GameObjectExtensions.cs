@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     public static class GameObjectExtensions {
         public static List<Scene> GetAllLoadedScenes(this SceneManager sceneManager) {
             int countLoaded = SceneManager.sceneCount;

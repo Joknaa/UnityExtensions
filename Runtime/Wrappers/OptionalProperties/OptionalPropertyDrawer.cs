@@ -1,8 +1,8 @@
-using OknaaEXTENSIONS;
+using OkamelUtils;
 using UnityEditor;
 using UnityEngine;
 
-namespace OknaaEXTENSIONS.Wrappers.OptionalProperties {
+namespace OkamelUtils.Wrappers.OptionalProperties {
     
     [CustomPropertyDrawer(typeof(Optional<>))]
     public class OptionalPropertyDrawer : PropertyDrawer {

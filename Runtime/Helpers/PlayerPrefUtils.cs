@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     /// <summary>
     /// Encapsulates utility classes that helps with reading/writing JSON data on PlayerPrefs
     /// </summary>

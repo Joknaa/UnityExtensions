@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace OknaaEXTENSIONS {
+namespace OkamelUtils {
     public static class GeneralExtensions {
         
         public static void SetText(this TMP_Text text, object value) => text.text = value.ToString();
